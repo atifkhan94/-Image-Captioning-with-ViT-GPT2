@@ -1,0 +1,40 @@
+{
+  "title": "Image Captioning with ViT-GPT2",
+  "id": "image-captioning-vit-gpt2",
+  "licenses": [{
+    "name": "CC0-1.0"
+  }],
+  "subtitle": "A deep learning model for generating natural language descriptions of images",
+  "description": "This dataset contains an implementation of an image captioning system using the Vision Transformer (ViT) and GPT-2 models. It includes:\n\n- Image dataset with corresponding captions\n- Python implementation of the image captioning model\n- Pre-trained model integration with Hugging Face transformers\n\nThe model uses a ViT (Vision Transformer) as the image encoder and GPT-2 as the language model for caption generation.",
+  "resources": [
+    {
+      "path": "Images/*",
+      "description": "Image files for captioning"
+    },
+    {
+      "path": "captions.txt",
+      "description": "Caption annotations for the images"
+    },
+    {
+      "path": "image_captioning_model.py",
+      "description": "Main implementation of the image captioning model"
+    },
+    {
+      "path": "image_captioning.py",
+      "description": "Utility script for processing images and captions"
+    },
+    {
+      "path": "requirements.txt",
+      "description": "Python package dependencies"
+    }
+  ],
+  "keywords": [
+    "computer-vision",
+    "deep-learning",
+    "image-captioning",
+    "transformers",
+    "vision-transformer",
+    "gpt2",
+    "pytorch"
+  ]
+}
